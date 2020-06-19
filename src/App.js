@@ -7,32 +7,38 @@ import Footer from './footer.js';
 
 import './App.css';
 import Logos from './logoreel.js';
+import About from './about.js';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="main">
-      <div id= "home">
-        <div className="navigation">
-            <Link to="/pathLink#home" className="item">home</Link>
-            <Link to="/pathLink#projects" className="item">projects</Link>
-            <Link to="/pathLink#contact" className="item">contact</Link>
-            <div className="animation start-home"></div>
+        <div id= "home">
+          <div className="navigation-container">
+            <div className="navigation">
+                <Link to="/pathLink#home" className="item">
+                home
+                </Link>
+                <Link to="/pathLink#projects" className="item">
+                projects
+                </Link>
+                <Link to="/pathLink#contact" className="item">
+                contact
+                </Link>
+                <div className="animation start-home"></div>
+              </div>
             </div>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+            </div>
+        <div className="main">
+        <About />
         <div id= "projects">
-        <Directory />
         </div>
+        <Directory />
         <Logos />
         </div>
         <div id= "contact">
         <Footer />
         </div>
-        </BrowserRouter>
+    </BrowserRouter>
    
   );
 }

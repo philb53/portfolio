@@ -6,21 +6,17 @@ const Footer = () =>  {
 <div className="main-footer">
     <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20 }}>
                 {/* column1 */}
-                <div><h4> COMPANY NAME </h4>
+                <div><h4 style={{marginLeft: "100px"}}><a href="https://github.com/philb53">Github</a></h4>
                 </div>
                 
             {/* column2 */}
                 <div>
-                    <h4> STUFF </h4>
-                    <ul>
-                        <li>DANK MEMES</li>
-                        <li>INCORPORATED</li>
-                        <li>GIGGITY</li>
-                    </ul>
+                    <h4 style={{marginLeft: "100px"}}> CONTACT &nbsp;&nbsp;|&nbsp; <a href="https://www.linkedin.com/in/philip-baker-32915464/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://twitter.com/Philip_Baker1">@Philip_Baker1</a></h4>
+                     
                 </div>
             {/* /* column3 */}
-            <div>
-            &copy;{new Date().getFullYear()} THICC MEMES INC | ALL RIGHTS RESERVED | TERMS OF SERVICE | Privacy
+            <div style={{marginLeft: "30px", marginTop: "20px"}}>
+            &copy;{new Date().getFullYear()} | PHILIP BAKER | Available for employment opportunities
             </div>
     </div>
 

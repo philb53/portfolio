@@ -1,6 +1,6 @@
 .portfolio-item {
     min-width: 30%;
-    height: 400px;
+    height: 550px;
     flex: 1 1 auto;
     display: flex;
     align-items: center;
@@ -10,12 +10,13 @@
     z-index: 1;
   
     &:hover {
-      cursor: pointer;
-      padding-right: 250px;
+      
+      
   
       & .background-image {
-        transform: scale(1.1);
+        transform: scale(1.2);
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        margin-right: 200px;
       }
   
     }
@@ -36,7 +37,7 @@
       border-radius: 5%;
       width: 25%;
       height: 65%;
-      margin-left: 200px;
+      margin-right: 50px;
       background-size: cover;
       background-position: center;
       -webkit-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
@@ -46,11 +47,11 @@
   }  
 .content {
       flex-direction: row;
-      height: 100px;
+      height: 200px;
       width: 300px;
       padding: 0 25px;
       margin-left: 100px;
-      background-color: rgba(253, 253, 253, 0.856);
+      background-color: #34495e;
       opacity: 0.9;
       font-size: 18px;
       transition: width 0.2s;
@@ -61,23 +62,25 @@
 box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
 
       &:hover {
-        cursor: pointer;
-        margin-left: 100px;
-        height: 200px;
-      width: 400px;
+        height: 220px;
+      width: 320px;
       
     }
   
       .title {
         font-weight: bold;
         margin: 0 6px 0;
+        margin-top: 25px;
         font-size: 22px;
-        color: #4a4a4a;
+        color: whitesmoke;
+        text-align: center;
       }
   
       .subtitle {
         font-weight: lighter;
         font-size: 16px;
+        text-align: center;
+        color: whitesmoke;
       }
 .image-reel {
   flex-wrap: row;
