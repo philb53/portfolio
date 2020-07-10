@@ -11,7 +11,7 @@ const PortfolioItem = ({ imageUrl, size, summary, subtitle }) => (
       }}
     />
     <div className='content'>
-    <h1 className='title'>{summary}</h1>
+    <h1 className='webtitle'>{summary}</h1>
     <p className='subtitle'>{subtitle}</p>
     </div> 
     </div>

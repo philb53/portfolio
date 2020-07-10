@@ -11,12 +11,9 @@
   
     &:hover {
       
-      
-  
       & .background-image {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-        margin-right: 200px;
       }
   
     }
@@ -35,8 +32,8 @@
   
     .background-image {
       border-radius: 5%;
-      width: 25%;
-      height: 65%;
+      width: 30%;
+      height: 70%;
       margin-right: 50px;
       background-size: cover;
       background-position: center;
@@ -50,8 +47,11 @@
       height: 200px;
       width: 300px;
       padding: 0 25px;
-      margin-left: 100px;
+      margin-left: 130px;
       background-color: #34495e;
+      border-radius: 6px;
+      border: thin;
+      border-color: white;
       opacity: 0.9;
       font-size: 18px;
       transition: width 0.2s;
@@ -61,13 +61,7 @@
 -moz-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
 
-      &:hover {
-        height: 220px;
-      width: 320px;
-      
-    }
-  
-      .title {
+      .webtitle {
         font-weight: bold;
         margin: 0 6px 0;
         margin-top: 25px;

@@ -30,10 +30,12 @@ function App() {
             </div>
         <div className="main">
         <About />
+        <div className="sub-container">
         <div id= "projects">
         </div>
         <Directory />
         <Logos />
+        </div>
         </div>
         <div id= "contact">
         <Footer />
